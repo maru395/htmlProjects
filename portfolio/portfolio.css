@@ -1,0 +1,46 @@
+@media (min-width: 768px) {
+    
+}
+
+.body {
+    background-color: whitesmoke;
+}
+
+/*header text*/
+.logo {
+    font-family: 'Permanent Marker';
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+     text-decoration: underline;
+     text-decoration-color: rgb(241, 241, 241);
+     cursor: default;
+}
+.u {
+    color: rgb(148, 13, 13);
+      text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: rgb(97, 96, 96);
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+.navButtons a {
+    margin-left: 12px;
+}
